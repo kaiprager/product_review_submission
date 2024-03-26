@@ -1,0 +1,70 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #555;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+div, form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+label {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+select, input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #14419a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #091c41;
+}
+
+.error {
+    color: #f80202;
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.button-container form {
+    border: none;
+}
+
+.edit-button, .delete-button, .add-new-button {
+    background-color: #14419a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button:hover, .delete-button:hover, .add-new-button:hover {
+    background-color: #091c41;
+}
